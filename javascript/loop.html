@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<script>
+		document.write("<h3>While Loop</h3>");
+		var a = 1;
+		while (a<=10) {
+			document.write('Number= '+a+'<br />');
+			a++;
+		}
+		document.write("<h3>do While Loop</h3>");
+		var i= 5;
+		do {
+			document.write('Number= '+i+'<br />');
+			i++;
+		}
+		while(i<=10);
+		document.write("<h3>for Loop</h3>");
+		for (d=1; d<=10; d++) {
+			document.write("8 * "+d+" = "+8*d + "<br />");
+		}
+		document.write("<h3>for in loop</h3>");
+		var area = new Array()
+		area[0] = "karachi"
+		area[1] = "hyd"
+		area[2] = "lahore"
+		area[3] = "multan"
+		for (var locate in area) {
+			document.write("places are " + area[locate]+ "<br />");
+		}
+	</script>
+</body>
+</html>
